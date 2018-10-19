@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void previousClicked(View view) {
+    public void previousButtonClicked(View view) {
 
         TextView dayTextView = (TextView) findViewById(R.id.dayTextView);
         LinearLayout timetableLayout = (LinearLayout) findViewById(R.id.timetableLayout);
